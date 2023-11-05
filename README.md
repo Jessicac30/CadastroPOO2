@@ -1,4 +1,4 @@
-# 1º Procedimento | Criação das Entidades e Sistema de Persistência
+# 2º Procedimento | Criação do Cadastro em Modo Texto
 
 **RPG0014 - Iniciando o caminho pelo Java**
 
