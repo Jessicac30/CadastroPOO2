@@ -99,7 +99,7 @@ public class Main {
                     } else if (tipoAlteracao.equals("J")) {
                         System.out.print("Digite o Id da pessoa a ser alterada: ");
                         int id = scanner.nextInt();
-                        scanner.nextLine(); // Limpar a quebra de linha
+                        scanner.nextLine();
 
                         PessoaJuridica pessoaJuridicaExistente = repoPessoaJuridica.obter(id);
                         if (pessoaJuridicaExistente == null) {
@@ -141,7 +141,7 @@ public class Main {
                     } else if (tipoExclusao.equals("J")) {
                         System.out.print("Digite o Id da pessoa a ser excluída: ");
                         int id = scanner.nextInt();
-                        scanner.nextLine(); // Limpar a quebra de linha
+                        scanner.nextLine();
 
                         boolean removido = repoPessoaJuridica.remover(id);
                         if (removido) {
@@ -161,7 +161,7 @@ public class Main {
                     if (tipoBusca.equals("F")) {
                         System.out.print("Digite o Id da pessoa a ser buscada: ");
                         int id = scanner.nextInt();
-                        scanner.nextLine(); // Limpar a quebra de linha
+                        scanner.nextLine();
 
                         PessoaFisica pessoaFisicaBusca = repoPessoaFisica.obter(id);
                         if (pessoaFisicaBusca != null) {
@@ -173,7 +173,7 @@ public class Main {
                     } else if (tipoBusca.equals("J")) {
                         System.out.print("Digite o Id da pessoa a ser buscada: ");
                         int id = scanner.nextInt();
-                        scanner.nextLine(); // Limpar a quebra de linha
+                        scanner.nextLine();
 
                         PessoaJuridica pessoaJuridicaBusca = repoPessoaJuridica.obter(id);
                         if (pessoaJuridicaBusca != null) {
